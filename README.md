@@ -1,7 +1,7 @@
 Build
 =====
 
-This repo contains platform-specific files for an Odroid-C1 image, used by the Volumio Builder.
+This repo contains all platform-specific files, used by the Volumio Builder to create an Odroid C1 image.
 
 - Kernel files (kernel, modules, firmware)
 - Other files, e.g. used during the boot process
