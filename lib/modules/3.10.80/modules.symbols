@@ -130,6 +130,7 @@ alias symbol:ath_reg_notifier_apply ath
 alias symbol:fuse_dev_operations fuse
 alias symbol:rpc_pipe_generic_upcall sunrpc
 alias symbol:nfs4_set_rw_stateid nfsv4
+alias symbol:pps_lookup_dev pps_core
 alias symbol:xdr_encode_word sunrpc
 alias symbol:fbtft_write_reg8_bus9 fbtft
 alias symbol:rt2x00lib_dmadone rt2x00lib
@@ -649,6 +650,7 @@ alias symbol:ath9k_hw_set_txpowerlimit ath9k_hw
 alias symbol:dib8000_set_slave_frontend dib8000
 alias symbol:dib8096p_get_i2c_tuner dib8000
 alias symbol:iscsi_host_free libiscsi
+alias symbol:pps_unregister_source pps_core
 alias symbol:sensor_hub_set_feature hid_sensor_hub
 alias symbol:rpc_calc_rto sunrpc
 alias symbol:sunrpc_cache_unregister_pipefs sunrpc
@@ -1458,6 +1460,7 @@ alias symbol:cx22702_attach cx22702
 alias symbol:ath9k_hw_enable_interrupts ath9k_hw
 alias symbol:xprt_free sunrpc
 alias symbol:ath_dynack_sample_tx_ts ath9k_hw
+alias symbol:pps_event pps_core
 alias symbol:nf_ct_alloc_hashtable nf_conntrack
 alias symbol:nfs_wb_all nfs
 alias symbol:ath9k_hw_getrxfilter ath9k_hw
@@ -1986,6 +1989,7 @@ alias symbol:rpc_queue_upcall sunrpc
 alias symbol:nfs_refresh_inode nfs
 alias symbol:drm_kms_helper_poll_init drm_kms_helper
 alias symbol:snd_seq_kernel_client_ctl snd_seq
+alias symbol:pps_register_source pps_core
 alias symbol:iscsi_tcp_hdr_recv_prep libiscsi_tcp
 alias symbol:l2tp_tunnel_sock_put l2tp_core
 alias symbol:dm_exception_store_type_register dm_snapshot
