@@ -25,6 +25,7 @@ alias symbol:flexcop_eeprom_check_mac_addr b2c2_flexcop
 alias symbol:w1_read_block wire
 alias symbol:roccat_disconnect hid_roccat
 alias symbol:dib0090_set_dc_servo dib0090
+alias symbol:parport_register_device parport
 alias symbol:iscsi_block_scsi_eh scsi_transport_iscsi
 alias symbol:cx2341x_update cx2341x
 alias symbol:__cast5_decrypt cast5_generic
@@ -85,6 +86,7 @@ alias symbol:nfs_alloc_server nfs
 alias symbol:btmrvl_enable_ps btmrvl
 alias symbol:iscsi_complete_scsi_task libiscsi
 alias symbol:p54_parse_firmware p54common
+alias symbol:parport_irq_handler parport
 alias symbol:ath9k_hw_reset_tsf ath9k_hw
 alias symbol:nf_nat_irc_hook nf_conntrack_irc
 alias symbol:rpc_lookup_machine_cred sunrpc
@@ -118,6 +120,7 @@ alias symbol:nf_nat_l4proto_unique_tuple nf_nat
 alias symbol:fscache_init_cache fscache
 alias symbol:nf_ct_expect_init nf_conntrack
 alias symbol:usb_descriptor_fillbuf libcomposite
+alias symbol:gameport_set_phys gameport
 alias symbol:nfs_server_copy_userdata nfs
 alias symbol:__iscsi_get_task libiscsi
 alias symbol:fscache_put_operation fscache
@@ -183,6 +186,7 @@ alias symbol:ath9k_hw_puttxbuf ath9k_hw
 alias symbol:__cast6_setkey cast6_generic
 alias symbol:pnfs_readhdr_free nfsv4
 alias symbol:iscsi_conn_bind libiscsi
+alias symbol:parport_register_driver parport
 alias symbol:mwifiex_write_data_complete mwifiex
 alias symbol:rt2x00usb_probe rt2x00usb
 alias symbol:mwifiex_process_hs_config mwifiex
@@ -248,6 +252,7 @@ alias symbol:dib7000m_pid_filter dib7000m
 alias symbol:mrp_init_applicant mrp
 alias symbol:snd_seq_autoload_lock snd_seq_device
 alias symbol:__nf_ct_kill_acct nf_conntrack
+alias symbol:gameport_stop_polling gameport
 alias symbol:p54_parse_eeprom p54common
 alias symbol:au8522_writereg au8522_common
 alias symbol:mwifiex_cancel_hs mwifiex
@@ -273,6 +278,7 @@ alias symbol:af9013_attach af9013
 alias symbol:iscsi_add_session scsi_transport_iscsi
 alias symbol:lrw_free_table lrw
 alias symbol:snd_seq_kernel_client_enqueue_blocking snd_seq
+alias symbol:__gameport_register_port gameport
 alias symbol:drm_fb_helper_pan_display drm_kms_helper
 alias symbol:ath9k_hw_set_interrupts ath9k_hw
 alias symbol:fbtft_write_vmem16_bus8 fbtft
@@ -307,6 +313,7 @@ alias symbol:iscsi_pool_free libiscsi
 alias symbol:drm_fb_helper_single_add_all_connectors drm_kms_helper
 alias symbol:svc_set_num_threads sunrpc
 alias symbol:dm_tm_shadow_block dm_persistent_data
+alias symbol:parport_ieee1284_epp_write_addr parport
 alias symbol:tcp_vegas_get_info tcp_vegas
 alias symbol:nf_nat_icmpv6_reply_translation nf_nat_ipv6
 alias symbol:gf128mul_4k_lle gf128mul
@@ -336,6 +343,7 @@ alias symbol:dibusb2_0_power_ctrl dvb_usb_dibusb_common
 alias symbol:dibusb_read_eeprom_byte dvb_usb_dibusb_common
 alias symbol:usbnet_resume usbnet
 alias symbol:dm_btree_insert dm_persistent_data
+alias symbol:parport_set_timeout parport
 alias symbol:xdr_init_decode_pages sunrpc
 alias symbol:ip_set_nfnl_get_byindex ip_set
 alias symbol:cx231xx_dev_init cx231xx
@@ -417,6 +425,7 @@ alias symbol:nfs_put_client nfs
 alias symbol:ath9k_hw_setrxfilter ath9k_hw
 alias symbol:mfd_cell_enable mfd_core
 alias symbol:rpc_pton sunrpc
+alias symbol:parport_ieee1284_epp_read_data parport
 alias symbol:rpc_init_priority_wait_queue sunrpc
 alias symbol:sunrpc_destroy_cache_detail sunrpc
 alias symbol:ar9003_mci_send_wlan_channels ath9k_hw
@@ -454,6 +463,7 @@ alias symbol:ts2020_attach ts2020
 alias symbol:gserial_free_line u_serial
 alias symbol:can_proto_unregister can
 alias symbol:nfs_pageio_add_request nfs
+alias symbol:parport_ieee1284_read_byte parport
 alias symbol:dib7000p_get_agc_values dib7000p
 alias symbol:tveeprom_read tveeprom
 alias symbol:l2tp_session_find_nth l2tp_core
@@ -551,6 +561,7 @@ alias symbol:nf_ct_l4proto_pernet_register nf_conntrack
 alias symbol:pnfs_read_done_resend_to_mds nfsv4
 alias symbol:snd_seq_device_new snd_seq_device
 alias symbol:iscsi_requeue_task libiscsi
+alias symbol:parport_find_number parport
 alias symbol:ath9k_hw_abort_tx_dma ath9k_hw
 alias symbol:svc_create_pooled sunrpc
 alias symbol:get_h225_addr nf_conntrack_h323
@@ -567,6 +578,7 @@ alias symbol:cx2341x_mpeg_ctrls cx2341x
 alias symbol:dib7000m_pid_filter_ctrl dib7000m
 alias symbol:ath6kl_core_tx_complete ath6kl_core
 alias symbol:dm_tm_open_with_sm dm_persistent_data
+alias symbol:parport_write parport
 alias symbol:ath_hw_keyreset ath
 alias symbol:nf_nat_used_tuple nf_nat
 alias symbol:nfs_file_splice_read nfs
@@ -584,6 +596,7 @@ alias symbol:ath9k_hw_disable ath9k_hw
 alias symbol:drbd_disk_str drbd
 alias symbol:drm_fb_helper_init drm_kms_helper
 alias symbol:rpc_exit sunrpc
+alias symbol:gameport_open gameport
 alias symbol:svc_seq_show sunrpc
 alias symbol:fscache_io_error fscache
 alias symbol:nf_ct_dying_timeout nf_conntrack
@@ -871,6 +884,7 @@ alias symbol:nfs_show_options nfs
 alias symbol:nf_nat_l3proto_unregister nf_nat
 alias symbol:rt2x00lib_dmastart rt2x00lib
 alias symbol:ath9k_hw_reset ath9k_hw
+alias symbol:gameport_close gameport
 alias symbol:dib0070_set_rf_output dib0070
 alias symbol:gf128mul_init_4k_lle gf128mul
 alias symbol:nf_ct_unlink_expect_report nf_conntrack
@@ -899,6 +913,7 @@ alias symbol:nfs4_acl_new nfsd
 alias symbol:locks_end_grace lockd
 alias symbol:nfs4_insert_deviceid_node nfsv4
 alias symbol:rpc_peeraddr sunrpc
+alias symbol:parport_unregister_driver parport
 alias symbol:snd_usbmidi_input_stop snd_usbmidi_lib
 alias symbol:rt2x00usb_resume rt2x00usb
 alias symbol:usb_wwan_port_remove usb_wwan
@@ -910,6 +925,7 @@ alias symbol:fbtft_write_gpio16_wr fbtft
 alias symbol:mwifiex_handle_rx_packet mwifiex
 alias symbol:cache_unregister_net sunrpc
 alias symbol:look_up_OID oid_registry
+alias symbol:parport_ieee1284_ecp_write_addr parport
 alias symbol:rpc_count_iostats sunrpc
 alias symbol:nfs4_schedule_stateid_recovery nfsv4
 alias symbol:dib0070_ctrl_agc_filter dib0070
@@ -948,6 +964,7 @@ alias symbol:ath_is_mybeacon ath
 alias symbol:raid6_empty_zero_page raid6_pq
 alias symbol:mwifiex_dump_drv_info mwifiex
 alias symbol:sms_board_setup smsmdtv
+alias symbol:gameport_unregister_port gameport
 alias symbol:drm_helper_probe_single_connector_modes drm_kms_helper
 alias symbol:nfs_wait_client_init_complete nfs
 alias symbol:ip_vs_proto_data_get ip_vs
@@ -961,6 +978,7 @@ alias symbol:iscsi_tcp_conn_teardown libiscsi_tcp
 alias symbol:cx2341x_handler_set_50hz cx2341x
 alias symbol:nf_conntrack_helper_try_module_get nf_conntrack
 alias symbol:async_raid6_datap_recov async_raid6_recov
+alias symbol:parport_register_port parport
 alias symbol:btmrvl_interrupt btmrvl
 alias symbol:nfs_destroy_inode nfs
 alias symbol:locks_in_grace lockd
@@ -1000,6 +1018,7 @@ alias symbol:rt2800_conf_tx rt2800lib
 alias symbol:rt2x00mac_stop rt2x00lib
 alias symbol:nf_ct_l3protos nf_conntrack
 alias symbol:dm_array_set_value dm_persistent_data
+alias symbol:parport_release parport
 alias symbol:snd_ac97_pcm_open snd_ac97_codec
 alias symbol:videobuf_dvb_dealloc_frontends videobuf_dvb
 alias symbol:cast6_setkey cast6_generic
@@ -1039,6 +1058,7 @@ alias symbol:em28xx_alloc_urbs em28xx
 alias symbol:nf_conntrack_l4proto_udp4 nf_conntrack
 alias symbol:fscache_wait_bit fscache
 alias symbol:mwifiex_deauthenticate_all mwifiex
+alias symbol:parport_ieee1284_ecp_read_data parport
 alias symbol:write_bytes_to_xdr_buf sunrpc
 alias symbol:nfs_path nfs
 alias symbol:usb_put_function_instance libcomposite
@@ -1049,14 +1069,17 @@ alias symbol:register_ip_vs_app ip_vs
 alias symbol:nfs_sb_deactive nfs
 alias symbol:rt2800_read_eeprom_efuse rt2800lib
 alias symbol:iscsi_create_conn scsi_transport_iscsi
+alias symbol:parport_claim parport
 alias symbol:mwifiex_del_virtual_intf mwifiex
 alias symbol:is_fw_load cx231xx
 alias symbol:nfs_commitdata_release nfs
 alias symbol:lirc_unregister_driver lirc_dev
+alias symbol:parport_ieee1284_write_compat parport
 alias symbol:fscache_object_states fscache
 alias symbol:usbip_alloc_iso_desc_pdu usbip_core
 alias symbol:dibusb_streaming_ctrl dvb_usb_dibusb_common
 alias symbol:rts5139_usb_ids rts5139
+alias symbol:parport_claim_or_block parport
 alias symbol:ar9003_paprd_enable ath9k_hw
 alias symbol:ip_set_test ip_set
 alias symbol:xprt_adjust_cwnd sunrpc
@@ -1120,6 +1143,7 @@ alias symbol:nfnl_acct_put nfnetlink_acct
 alias symbol:drm_fb_helper_fill_var drm_kms_helper
 alias symbol:nf_ct_l4proto_put nf_conntrack
 alias symbol:au8522_attach au8522_dig
+alias symbol:parport_announce_port parport
 alias symbol:usbnet_read_cmd usbnet
 alias symbol:gspca_dev_probe2 gspca_main
 alias symbol:dib0090_get_tune_state dib0090
@@ -1195,6 +1219,7 @@ alias symbol:rpc_net_ns sunrpc
 alias symbol:fscache_check_aux fscache
 alias symbol:gs_alloc_req u_serial
 alias symbol:rpc_destroy_wait_queue sunrpc
+alias symbol:gameport_unregister_driver gameport
 alias symbol:nfs_fs_type nfs
 alias symbol:rpc_d_lookup_sb sunrpc
 alias symbol:rt2x00mac_sw_scan_start rt2x00lib
@@ -1228,6 +1253,7 @@ alias symbol:rt2x00lib_beacondone rt2x00lib
 alias symbol:fscache_op_complete fscache
 alias symbol:rt2x00lib_rxdone rt2x00lib
 alias symbol:usb_gstrings_attach libcomposite
+alias symbol:parport_wait_event parport
 alias symbol:sensor_hub_get_feature hid_sensor_hub
 alias symbol:iscsi_post_host_event scsi_transport_iscsi
 alias symbol:dm_region_hash_create dm_region_hash
@@ -1244,6 +1270,7 @@ alias symbol:raid6_gfinv raid6_pq
 alias symbol:dm_rh_stop_recovery dm_region_hash
 alias symbol:iscsi_boot_destroy_kset iscsi_boot_sysfs
 alias symbol:ath9k_hw_getchan_noise ath9k_hw
+alias symbol:parport_find_base parport
 alias symbol:rt2800_gain_calibration rt2800lib
 alias symbol:l2tp_session_find_by_ifname l2tp_core
 alias symbol:iscsi_block_session scsi_transport_iscsi
@@ -1251,6 +1278,7 @@ alias symbol:dib0090_set_tune_state dib0090
 alias symbol:dm_rh_recovery_in_flight dm_region_hash
 alias symbol:iscsi_recv_pdu scsi_transport_iscsi
 alias symbol:nfs_dentry_operations nfs
+alias symbol:parport_unregister_device parport
 alias symbol:svc_unreg_xprt_class sunrpc
 alias symbol:dvb_usb_generic_rw dvb_usb
 alias symbol:sys_fillrect sysfillrect
@@ -1267,6 +1295,7 @@ alias symbol:nf_conntrack_unregister_notifier nf_conntrack
 alias symbol:nfnetlink_subsys_register nfnetlink
 alias symbol:ath6kl_cfg80211_suspend ath6kl_core
 alias symbol:iscsi_suspend_tx libiscsi
+alias symbol:parport_ieee1284_epp_write_data parport
 alias symbol:rt2800_process_rxwi rt2800lib
 alias symbol:ath9k_hw_gettsf64 ath9k_hw
 alias symbol:cx2341x_handler_set_busy cx2341x
@@ -1282,6 +1311,7 @@ alias symbol:dm_rh_flush dm_region_hash
 alias symbol:nf_ct_l3proto_try_module_get nf_conntrack
 alias symbol:fc0011_attach fc0011
 alias symbol:ipt_register_table ip_tables
+alias symbol:parport_remove_port parport
 alias symbol:ath9k_hw_disable_mib_counters ath9k_hw
 alias symbol:fuse_conn_put fuse
 alias symbol:nf_ct_port_tuple_to_nlattr nf_conntrack
@@ -1289,6 +1319,7 @@ alias symbol:nfs_request_remove_commit_list nfs
 alias symbol:raid6_gfmul raid6_pq
 alias symbol:sprint_OID oid_registry
 alias symbol:nf_ct_delete_from_lists nf_conntrack
+alias symbol:parport_put_port parport
 alias symbol:ip_vs_conn_put ip_vs
 alias symbol:nf_ct_gre_keymap_add nf_conntrack_proto_gre
 alias symbol:dibusb_dib3000mc_frontend_attach dvb_usb_dibusb_common
@@ -1344,6 +1375,7 @@ alias symbol:dm_bio_prison_free_cell dm_bio_prison
 alias symbol:rpcauth_unregister sunrpc
 alias symbol:nf_nat_sip_expect_hook nf_conntrack_sip
 alias symbol:iscsi_create_flashnode_conn scsi_transport_iscsi
+alias symbol:parport_wait_peripheral parport
 alias symbol:usb_add_function libcomposite
 alias symbol:rt2800_probe_hw rt2800lib
 alias symbol:rt2x00queue_stop_queues rt2x00lib
@@ -1382,6 +1414,7 @@ alias symbol:lnbp22_attach lnbp22
 alias symbol:usbnet_get_drvinfo usbnet
 alias symbol:fc0013_rc_cal_reset fc0013
 alias symbol:gf128mul_lle gf128mul
+alias symbol:parport_ieee1284_read_nibble parport
 alias symbol:cx231xx_dev_uninit cx231xx
 alias symbol:iscsi_session_recovery_timedout libiscsi
 alias symbol:nfs4_init_ds_session nfsv4
@@ -1414,6 +1447,7 @@ alias symbol:nfs_initiate_commit nfs
 alias symbol:nf_ct_expect_related_report nf_conntrack
 alias symbol:nfs_umount_begin nfs
 alias symbol:cx24113_agc_callback cx24113
+alias symbol:parport_read parport
 alias symbol:rt2x00queue_flush_queue rt2x00lib
 alias symbol:rpc_put_sb_net sunrpc
 alias symbol:b2c2_flexcop_debug b2c2_flexcop
@@ -1586,6 +1620,7 @@ alias symbol:nfs_drop_inode nfs
 alias symbol:drm_helper_disable_unused_functions drm_kms_helper
 alias symbol:rndis_unbind rndis_host
 alias symbol:svc_xprt_names sunrpc
+alias symbol:parport_ieee1284_ecp_write_data parport
 alias symbol:rtl2830_get_tuner_i2c_adapter rtl2830
 alias symbol:xdr_decode_word sunrpc
 alias symbol:fuse_put_request fuse
@@ -1647,6 +1682,7 @@ alias symbol:svc_alien_sock sunrpc
 alias symbol:fbtft_register_framebuffer fbtft
 alias symbol:cdc_ncm_bind_common cdc_ncm
 alias symbol:gf128mul_bbe gf128mul
+alias symbol:parport_ieee1284_interrupt parport
 alias symbol:ath9k_hw_setrxabort ath9k_hw
 alias symbol:nfs_put_super nfs
 alias symbol:rc_map_af9005_table dvb_usb_af9005_remote
@@ -1685,6 +1721,7 @@ alias symbol:unregister_candev can_dev
 alias symbol:xprt_reserve_xprt sunrpc
 alias symbol:gf128mul_init_4k_bbe gf128mul
 alias symbol:rpcauth_destroy_credcache sunrpc
+alias symbol:parport_ieee1284_epp_read_addr parport
 alias symbol:dib7000p_set_agc1_min dib7000p
 alias symbol:svcauth_gss_flavor auth_rpcgss
 alias symbol:xts_crypt xts
@@ -1731,6 +1768,7 @@ alias symbol:smscore_unregister_hotplug smsmdtv
 alias symbol:nfnetlink_has_listeners nfnetlink
 alias symbol:can_get_echo_skb can_dev
 alias symbol:rpcauth_lookup_credcache sunrpc
+alias symbol:parport_get_port parport
 alias symbol:ct_sip_get_header nf_conntrack_sip
 alias symbol:dib3000mc_set_config dib3000mc
 alias symbol:xdr_read_pages sunrpc
@@ -1781,6 +1819,7 @@ alias symbol:ath_rxbuf_alloc ath
 alias symbol:xdr_buf_from_iov sunrpc
 alias symbol:nfs_writedata_release nfs
 alias symbol:snd_seq_event_port_attach snd_seq
+alias symbol:gameport_start_polling gameport
 alias symbol:ath9k_hw_reset_calvalid ath9k_hw
 alias symbol:dm_tm_create_with_sm dm_persistent_data
 alias symbol:async_raid6_2data_recov async_raid6_recov
@@ -1958,6 +1997,7 @@ alias symbol:dib0070_attach dib0070
 alias symbol:cx231xx_init_bulk cx231xx
 alias symbol:rt2x00usb_disable_radio rt2x00usb
 alias symbol:nf_connlabels_replace nf_conntrack
+alias symbol:parport_negotiate parport
 alias symbol:nfs_dns_resolve_name nfs
 alias symbol:usbnet_start_xmit usbnet
 alias symbol:xprt_alloc_slot sunrpc
@@ -2003,6 +2043,7 @@ alias symbol:ath6kl_core_rx_complete ath6kl_core
 alias symbol:nfs_post_op_update_inode nfs
 alias symbol:usbip_pack_pdu usbip_core
 alias symbol:iscsi_eh_session_reset libiscsi
+alias symbol:__gameport_register_driver gameport
 alias symbol:ip_set_get_extensions ip_set
 alias symbol:rt2x00queue_flush_queues rt2x00lib
 alias symbol:fuse_direct_io fuse

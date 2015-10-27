@@ -13,6 +13,7 @@ kernel/fs/fat/msdos.ko
 kernel/fs/jbd2/jbd2.ko
 kernel/fs/nls/nls_base.ko
 kernel/fs/nls/nls_iso8859-1.ko
+kernel/fs/overlayfs/overlayfs.ko
 kernel/fs/quota/quota_v2.ko
 kernel/fs/quota/quota_tree.ko
 kernel/crypto/crypto.ko
