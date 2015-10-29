@@ -1,0 +1,88 @@
+## irexec
+begin irexec
+  begin
+     prog = irexec
+     button = KEY_POWER
+     config = shutdown -h -P now
+     repeat = 0
+  end
+
+  begin
+     prog = irexec
+     button = KEY_DOWN
+     config = mpc consume off;mpc prev
+     repeat = 0
+  end
+
+  begin
+     prog = irexec
+     button = KEY_UP
+     config = mpc:consume off;mpc next
+     repeat = 0
+  end
+
+  begin
+     prog = irexec
+     button = KEY_VOLUMEUP
+     config = mpc volume +2
+     repeat = 1
+  end
+
+  begin
+     prog = irexec
+     button = KEY_VOLUMEDOWN
+     config = mpc volume -2
+     repeat = 1
+  end
+
+  begin
+     prog = irexec
+     button = KEY_RIGHT
+     config = mpc toggle;mpc seek +1%;sleep 0.1;mpc toggle
+     repeat = 0
+  end
+
+  begin
+     prog = irexec
+     button = KEY_LEFT
+     config = mpc toggle;mpc seek -1%;sleep 0.1;mpc toggle
+     repeat = 0
+  end
+    
+  begin
+     prog = irexec
+     button = KEY_MUTE
+     config = mpc toggle
+     repeat = 0
+  end
+
+  begin
+     prog = irexec
+     button = KEY_BACK
+     config = mpc stop;mpc play
+     repeat = 0
+  end
+   
+  begin
+     prog = irexec
+     button = KEY_HOME
+     config = mpc stop;mpc clear
+     repeat = 0
+  end
+     
+   begin
+     prog = irexec
+     button = KEY_MENU
+     config = mpc shuffle
+     repeat = 0
+   end   
+     
+   begin
+     prog = irexec
+     button = KEY_ENTER
+     config = mpc consume off;mpc play
+     repeat = 0
+   end   
+           
+end irexec
+

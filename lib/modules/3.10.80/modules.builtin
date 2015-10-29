@@ -13,6 +13,7 @@ kernel/fs/fat/msdos.ko
 kernel/fs/jbd2/jbd2.ko
 kernel/fs/nls/nls_base.ko
 kernel/fs/nls/nls_iso8859-1.ko
+kernel/fs/overlayfs/overlayfs.ko
 kernel/fs/quota/quota_v2.ko
 kernel/fs/quota/quota_tree.ko
 kernel/crypto/crypto.ko
@@ -345,9 +346,9 @@ kernel/sound/soc/aml/m8/snd-soc-aml-hw.ko
 kernel/sound/soc/aml/m8/aml_notify.ko
 kernel/sound/soc/aml/m8/snd-soc-aml-hw-pcm2bt.ko
 kernel/sound/soc/aml/m8/snd-soc-aml-spdif-dai.ko
-kernel/sound/soc/aml/m8/aml_audio_codec_probe.ko
 kernel/sound/soc/aml/m8/snd-soc-aml-spdif-codec.ko
-kernel/sound/soc/aml/m8/snd-soc-aml-m8.ko
+kernel/sound/soc/aml/m8/snd-soc-odroid-hdmi.ko
+kernel/sound/soc/aml/m8/snd-soc-odroid-dac.ko
 kernel/sound/soc/codecs/snd-soc-dummy_codec.ko
 kernel/sound/soc/codecs/snd-soc-aml-m8-codec.ko
 kernel/sound/soc/codecs/snd-soc-pcm5102.ko

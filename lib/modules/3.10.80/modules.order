@@ -276,12 +276,15 @@ kernel/drivers/usb/mon/usbmon.ko
 kernel/drivers/usb/class/cdc-acm.ko
 kernel/drivers/usb/class/usblp.ko
 kernel/drivers/usb/class/cdc-wdm.ko
+kernel/drivers/input/joystick/gamecon.ko
+kernel/drivers/input/joystick/xpad.ko
 kernel/drivers/input/tablet/acecad.ko
 kernel/drivers/input/tablet/aiptek.ko
 kernel/drivers/input/tablet/gtco.ko
 kernel/drivers/input/tablet/hanwang.ko
 kernel/drivers/input/tablet/kbtab.ko
 kernel/drivers/input/tablet/wacom.ko
+kernel/drivers/input/touchscreen/dwav-usb-mt.ko
 kernel/drivers/input/misc/ati_remote2.ko
 kernel/drivers/input/misc/gpio_event.ko
 kernel/drivers/input/misc/gpio_matrix.ko
@@ -650,6 +653,10 @@ kernel/drivers/amlogic/pwm/pwm-meson.ko
 kernel/drivers/amlogic/pwm/pwm-ctrl.ko
 kernel/drivers/hardkernel/ads7846.ko
 kernel/drivers/hardkernel/aml_gpio.ko
+kernel/drivers/parport/parport.ko
+kernel/drivers/input/gameport/gameport.ko
+kernel/drivers/pps/clients/pps-gpio.ko
+kernel/drivers/pps/pps_core.ko
 kernel/drivers/w1/masters/w1-gpio.ko
 kernel/drivers/w1/slaves/w1_therm.ko
 kernel/drivers/w1/wire.ko
@@ -702,6 +709,7 @@ kernel/backports/drivers/net/wireless/rsi/rsi_usb.ko
 kernel/backports/drivers/realtek/8192cu/8192cu.ko
 kernel/backports/drivers/realtek/rtl8188eu/8188eu.ko
 kernel/backports/drivers/realtek/rtl8192du/8192du.ko
+kernel/backports/drivers/realtek/rtl8812au/8812au.ko
 kernel/backports/drivers/net/usb/cdc_ether.ko
 kernel/backports/drivers/net/usb/rndis_host.ko
 kernel/backports/drivers/net/usb/usbnet.ko
