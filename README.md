@@ -14,4 +14,4 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 - overlayfs will be supported after switching to kernel 4.0.x
 
 **Platform files for X2, kernel version 3.8.13.30**
-- Volumio 2 support with limitations due. overlayfs will not be supported
+- Volumio 2 support with limitations, overlayfs will not be supported
