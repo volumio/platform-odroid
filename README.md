@@ -8,7 +8,7 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 
 **Platform files for C1/C1+, kernel version 3.10.80**
 - Full Volumio 2 support
--
+
 **Platform files for XU4, kernel version 3.10.92+**
 - Volumio 2 support with limitations due to currently missing overlayfs support 
 - overlayfs will be supported after switching to kernel 4.0.x
