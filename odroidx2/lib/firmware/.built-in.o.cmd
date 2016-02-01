@@ -1,1 +1,0 @@
-cmd_firmware/built-in.o :=  arm-linux-gnueabihf-ld -EL    -r -o firmware/built-in.o firmware/edid/1024x768.bin.gen.o firmware/edid/1280x1024.bin.gen.o firmware/edid/1280x720.bin.gen.o firmware/edid/1680x1050.bin.gen.o firmware/edid/1920x1080.bin.gen.o 

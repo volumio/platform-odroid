@@ -1,9 +1,0 @@
-[Service]
-ExecStart=/opt/fan-control/odroid-xu3-fan-control.sh
-Restart=always
-StandardOutput=syslog
-StandardError=syslog
-SyslogIdentifier=fancontrol
-
-[Install]
-WantedBy=multi-user.target
