@@ -11,7 +11,7 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 
 **Platform files for C2, kernel version 3.14.29-19-overlayfs**
 - Full Volumio 2 support
-- Temporrary soltion with arm64 kernel and armhf rootfs
+- Temporary solution with arm64 kernel and armhf rootfs
 
 **Platform files for XU4, kernel version 4.4.0 (mainline)**
 - Full Volumio 2 support  
