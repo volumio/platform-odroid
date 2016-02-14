@@ -9,6 +9,10 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 **Platform files for C1/C1+, kernel version 3.10.80**
 - Full Volumio 2 support
 
+**Platform files for C2, kernel version 3.14.29-19-overlayfs**
+- Full Volumio 2 support
+- Temporary solution with arm64 kernel and armhf rootfs
+
 **Platform files for XU4, kernel version 4.4.0 (mainline)**
 - Full Volumio 2 support  
 - open issue: fan control utility (to be added)
