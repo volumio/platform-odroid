@@ -20,9 +20,6 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 - Full Volumio 2 support  
 - open issue: fan control utility (to be added)
 
-~~Platform files for X2, kernel version 3.8.13.30~~
-- ~~Volumio 2 support with limitations, overlayfs/ SD card resize/ updates~~ 
-  ~~mechanism will not be supported~~
-- 
 **Platform files for X2, kernel version 4.4.6 (experimental)**
-- 20160330, replaced kernel 3.8.13.30, now with full Volumio 2 support
+- 20160330, upgraded from HK stock kernel 3.8.13.30
+- now with full Volumio 2 support
