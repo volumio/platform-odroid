@@ -26,3 +26,4 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 - 
 **Platform files for X2, kernel version 4.4.6 (experimental)**
 - 20160330, replaced kernel 3.8.13.30, now with full Volumio 2 support
+- 20160401, corrected missing iptables options (REDIRECT)
