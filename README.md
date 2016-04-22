@@ -11,10 +11,11 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 - Updated 20160320: Kernel Version 3.10.80 -> 3.10.96
                     pcm5102 i2s DAC driver (C1+/C2 HiFi Shield) is now a loadable module
 
-**Platform files for C2, kernel version 3.14.29-Volumio**
+**Platform files for C2, kernel version 3.14.29-Volumio2.0**
 - Official HK kernel with overlayfs v21
 - Full Volumio 2 support
 - Updated 20160315: pcm5102 i2s DAC driver (C1+/C2 HiFi Shield) is now a loadable module
+- Updated 20160422: i2s driver issues resolved
 
 **Platform files for XU4, kernel version 4.4.0 (mainline)**
 - Full Volumio 2 support  
