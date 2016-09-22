@@ -12,7 +12,8 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
                     pcm5102 i2s DAC driver (C1+/C2 HiFi Shield) is now a loadable module
 - Updated 20160708: Kernel Update
 		    Sound card 176.4KHz sample-rate playback error fix.
-- Updated 20160913: Added pcm5242 drivers for the upcoming HiFi Shield 2
+- Updated 20160913: **Kernel version 10.10.103**
+		    Added pcm5242 drivers for the upcoming HiFi Shield 2
 	
 **Platform files for C2, kernel version 3.14.29-Volumio2.0**
 - Official HK kernel with overlayfs v21
