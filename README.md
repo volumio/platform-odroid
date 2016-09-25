@@ -14,6 +14,7 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 		    Sound card 176.4KHz sample-rate playback error fix.
 - Updated 20160913: Kernel version 3.10.96 -> 3.10.103
                     Added pcm512x drivers for the upcoming HiFi Shield 2
+- Updated 20160925: Kernel: added CONFIG_RTL8821AU, removed SND_SOC_PCM512x_SPI		
 	
 **Platform files for C2, kernel version 3.14.29-Volumio2.0**
 - Official HK kernel with overlayfs v21
