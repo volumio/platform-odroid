@@ -15,6 +15,8 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 - Updated 20160913: Kernel version 3.10.96 -> 3.10.103 Added pcm512x drivers for the upcoming HiFi Shield 2
 - Updated 20160925: Kernel: added CONFIG_RTL8821AU, removed SND_SOC_PCM512x_SPI
 - Updated 20160926: Added a service to automatically detect HiFi SHield and HiFi Shield 2
+- updated 20161021: Added C1_init.sh from https://github.com/mdrjr/c1_bootini/blob/master/c1_init.sh
+		    Added preset boot.ini files for Volumio Kiosk: Full HD (1080p60Hz), VU5, VU7 and VU7+
 
 **Platform files for C2, kernel version 3.14.29-Volumio2.0**
 - Official HK kernel with overlayfs v21
@@ -23,6 +25,8 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 - Updated 20160422: i2s driver issues resolved
 - Updated 20161014: Kernel version 3.10.79, added pcm512x drivers, service to detect HiFi Shield version
 - Updated 20161015: Added new u-boot.bin and bl1.bin.hardkernel
+- Updated 20161021: Added C2_init.sh from https://github.com/mdrjr/c2_bootini/blob/master/c2_init.sh
+		    Added preset boot.ini files for Volumio Kiosk: Full HD (1080p60Hz), VU5, VU7 and VU7+
 
 **Platform files for XU4, kernel version 4.4.0 (mainline)**
 - Full Volumio 2 support  
