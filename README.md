@@ -1,7 +1,13 @@
-Build
-=====
+# platform-odroid
 
-This repo contains all platform-specific files, used by the Volumio Builder to create an **Odroid** images:
+This repo contains all platform-specific files, used by the Volumio Builder to create a **Odroid** images:
+
+Kernel Sources:	
+C0/C1/C1+	https://github.com/hardkernel/linux.git, branch odroidc-3.10.y
+C2		https://github.com/hardkernel/linux.git, branch odroidc2-3.14.y
+X2		https://github.com/tobiasjakobi/linux-odroid-public.git, branch odroid-4.8.y
+XU4		https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
+	
 
 - Kernel files (kernel, modules, firmware)
 - Other files, e.g. used during the boot process
