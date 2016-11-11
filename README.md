@@ -5,7 +5,7 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 Kernel Sources:	
 C0/C1/C1+	https://github.com/hardkernel/linux.git, branch odroidc-3.10.y
 C2		https://github.com/hardkernel/linux.git, branch odroidc2-3.14.y
-X2		https://github.com/tobiasjakobi/linux-odroid-public.git, branch odroid-4.8.y
+X2		https://github.com/tobiasjakobi/linux-odroid-public.git, branch odroid-4.4.y (obsolete) 
 XU4		https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
 	
 
