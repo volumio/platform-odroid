@@ -42,4 +42,4 @@ XU4		https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
 - 20160330, upgraded from HK stock kernel 3.8.13.30
 - Exynos4412 experimental, now with full Volumio 2 support
 - 20160401, corrected missing iptables options (REDIRECT)
-
+- 20161202, edited boot.cmd
