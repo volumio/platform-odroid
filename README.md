@@ -35,6 +35,7 @@ XU4		https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
 - Updated 20161015: Added new u-boot.bin and bl1.bin.hardkernel
 - Updated 20161021: Added C2_init.sh from https://github.com/mdrjr/c2_bootini/blob/master/c2_init.sh
 		    Added preset boot.ini files for Volumio Kiosk: Full HD (1080p60Hz), VU5, VU7 and VU7+
+- Updated 20161208: Changed irq 62/63 (otg/usb) cpu affinity to cpu2 and cpu3
 
 **Platform files for XU4, kernel version 4.4.0 (mainline)**
 - Full Volumio 2 support  
