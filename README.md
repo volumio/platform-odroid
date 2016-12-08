@@ -12,7 +12,7 @@ XU4		https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
 - Kernel files (kernel, modules, firmware)
 - Other files, e.g. used during the boot process
 
-**Platform files for C1/C1+, kernel version 3.10.96**
+**Platform files for C1/C1+, kernel version 3.10.104**
 - Full Volumio 2 support
 - Updated 20160320: Kernel Version 3.10.80 -> 3.10.96
                     pcm5102 i2s DAC driver (C1+/C2 HiFi Shield) is now a loadable module
@@ -23,13 +23,15 @@ XU4		https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
 - Updated 20160926: Added a service to automatically detect HiFi SHield and HiFi Shield 2
 - updated 20161021: Added C1_init.sh from https://github.com/mdrjr/c1_bootini/blob/master/c1_init.sh
 		    Added preset boot.ini files for Volumio Kiosk: Full HD (1080p60Hz), VU5, VU7 and VU7+
+- updated 20161208: Moved kernel version 3.10.103 -> 3.10.104
+		    Added semtech touchscreen driver
 
-**Platform files for C2, kernel version 3.14.29-Volumio2.0**
+**Platform files for C2, kernel version 3.14.79**
 - Official HK kernel with overlayfs v21
 - Full Volumio 2 support
 - Updated 20160315: pcm5102 i2s DAC driver (C1+/C2 HiFi Shield) is now a loadable module
 - Updated 20160422: i2s driver issues resolved
-- Updated 20161014: Kernel version 3.10.79, added pcm512x drivers, service to detect HiFi Shield version
+- Updated 20161014: Kernel version 3.10.29 -> 3.10.79, added pcm512x drivers, service to detect HiFi Shield version
 - Updated 20161015: Added new u-boot.bin and bl1.bin.hardkernel
 - Updated 20161021: Added C2_init.sh from https://github.com/mdrjr/c2_bootini/blob/master/c2_init.sh
 		    Added preset boot.ini files for Volumio Kiosk: Full HD (1080p60Hz), VU5, VU7 and VU7+
