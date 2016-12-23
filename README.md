@@ -4,8 +4,11 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 
 Kernel Sources:	
 C0/C1/C1+	https://github.com/hardkernel/linux.git, branch odroidc-3.10.y
+
 C2		https://github.com/hardkernel/linux.git, branch odroidc2-3.14.y
+
 X2		https://github.com/tobiasjakobi/linux-odroid-public.git, branch odroid-4.4.y (obsolete) 
+
 XU4		https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
 	
 
@@ -25,6 +28,7 @@ XU4		https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
 		    Added preset boot.ini files for Volumio Kiosk: Full HD (1080p60Hz), VU5, VU7 and VU7+
 - updated 20161208: Moved kernel version 3.10.103 -> 3.10.104
 		    Added semtech touchscreen driver
+- updated 20161223: Changed odroiddac.service timing and raised amixer volume from 102 to 201
 
 **Platform files for C2, kernel version 3.14.79**
 - Official HK kernel with overlayfs v21
@@ -36,6 +40,7 @@ XU4		https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
 - Updated 20161021: Added C2_init.sh from https://github.com/mdrjr/c2_bootini/blob/master/c2_init.sh
 		    Added preset boot.ini files for Volumio Kiosk: Full HD (1080p60Hz), VU5, VU7 and VU7+
 - Updated 20161208: Changed irq 62/63 (otg/usb) cpu affinity to cpu2 and cpu3
+- updated 20161223: Changed odroiddac.service timing and raised volume from 102 to 201
 
 **Platform files for XU4, kernel version 4.4.0 (mainline)**
 - Full Volumio 2 support  
