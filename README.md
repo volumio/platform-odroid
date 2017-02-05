@@ -45,7 +45,8 @@ XU4: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
 - updated 20161223: Changed odroiddac.service timing and raised volume from 102 to 201
 - updated 20161223: Reverted amixer volume from 201 to 102  
 - updated 20160114: Reverted usb driver commit from 22.04.2016 to improve usb audio playback    
-  (https://github.com/hardkernel/linux/commit/99be9c67db6d05af30128858d27018a55fd1e9b0)
+  (https://github.com/hardkernel/linux/commit/99be9c67db6d05af30128858d27018a55fd1e9b0)  
+- updated 20170205: Capped HiFi Shield volume to 207 in a scale from 1-255
 
 
 **Platform files for XU4, kernel version 4.4.0 (mainline)**
