@@ -47,11 +47,13 @@ XU4: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
 - updated 20160114: Reverted usb driver commit from 22.04.2016 to improve usb audio playback    
   (https://github.com/hardkernel/linux/commit/99be9c67db6d05af30128858d27018a55fd1e9b0)  
 - updated 20170205: Capped HiFi Shield volume to 207 in a scale from 1-255
-
+- updated 20170207: Capped to 201 
+- updated 20170309: Reverted all the volume changes and added my own patch for "odroid_dac2.c" using "snd_soc_limit_volume"
 
 **Platform files for XU4, kernel version 4.4.0 (mainline)**
 - Full Volumio 2 support  
 - open issue: fan control utility (to be added)
+- Updated 20170303: Moved to hardkernel supported kernel 4.9.y
 
 **Platform files for X2, kernel version 4.4.6**
 - 20160330, upgraded from HK stock kernel 3.8.13.30
