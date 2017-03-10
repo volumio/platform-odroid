@@ -10,7 +10,7 @@ C2: https://github.com/hardkernel/linux.git, branch odroidc2-3.14.y
 
 X2: https://github.com/tobiasjakobi/linux-odroid-public.git, branch odroid-4.4.y (obsolete) 
 
-XU4: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
+XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 	
 
 - Kernel files (kernel, modules, firmware)
