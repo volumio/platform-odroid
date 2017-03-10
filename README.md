@@ -31,6 +31,7 @@ XU4: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.tar.xz
 		    Added semtech touchscreen driver
 - updated 20161223: Changed odroiddac.service timing and raised amixer volume from 102 to 201
 - updated 20161223: Reverted amixer volume from 201 to 102
+- updated 20170310: Added patch for "odroid_dac2.c", similar to Odroid C2
 
 **Platform files for C2, kernel version 3.14.79**
 - Official HK kernel with overlayfs v21
