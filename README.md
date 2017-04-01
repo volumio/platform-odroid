@@ -50,6 +50,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20170205: Capped HiFi Shield volume to 207 in a scale from 1-255
 - updated 20170207: Capped to 201 
 - updated 20170309: Reverted all the volume changes and added my own patch for "odroid_dac2.c" using "snd_soc_limit_volume"
+- updated 20170331: Added snd_aloop module to support brutefir
 
 **Platform files for XU4, kernel version 4.4.0 (mainline)**
 - Full Volumio 2 support  
