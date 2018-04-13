@@ -51,6 +51,8 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20170207: Capped to 201 
 - updated 20170309: Reverted all the volume changes and added my own patch for "odroid_dac2.c" using "snd_soc_limit_volume"
 - updated 20170331: Added snd_aloop module to support brutefir
+- updated 20180410: ALSA: usb audio: Eliminate noise at the start of DSD playback
+- updated 20180413: ALSA: usb audio: Added DSD support for a range of devices 
 
 **Platform files for XU4, kernel version 4.4.0 (mainline)**
 - Full Volumio 2 support  
