@@ -32,6 +32,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20161223: Changed odroiddac.service timing and raised amixer volume from 102 to 201
 - updated 20161223: Reverted amixer volume from 201 to 102
 - updated 20170310: Added patch for "odroid_dac2.c", similar to Odroid C2
+- updated 20180417: Fixed incorrect removal of aml_i2c module when no HiFi Shield 2 was found  
 
 **Platform files for C2, kernel version 3.14.79**
 - Official HK kernel with overlayfs v21
@@ -53,6 +54,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20170331: Added snd_aloop module to support brutefir
 - updated 20180410: ALSA: usb audio: Eliminate noise at the start of DSD playback
 - updated 20180413: ALSA: usb audio: Added DSD support for a range of devices 
+- updated 20180417: Fixed incorrect removal of aml_i2c module when no HiFi Shield 2 was found  
 
 **Platform files for XU4, kernel version 4.4.0 (mainline)**
 - Full Volumio 2 support  
