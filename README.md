@@ -58,10 +58,11 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20181231: USB Audio: support for more DSD-capable devices  
 
 
-**Platform files for XU4, kernel version 4.4.0 (mainline)**
+**Platform files for XU4/ HC1/ HC2, kernel version 4.4.0 (mainline)**
 - Full Volumio 2 support  
 - open issue: fan control utility (to be added)
 - Updated 20170303: Moved to hardkernel supported kernel 4.9.y
+- Updated 20190103: Moved to kernel 4.14.y LTS, added fancontrol, improved native DSD support
 
 **Platform files for X2, kernel version 4.4.6**
 - 20160330, upgraded from HK stock kernel 3.8.13.30
