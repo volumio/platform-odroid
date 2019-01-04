@@ -55,14 +55,19 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20180410: ALSA: usb audio: Eliminate noise at the start of DSD playback
 - updated 20180413: ALSA: usb audio: Added DSD support for a range of devices 
 - updated 20180417: Fixed incorrect removal of aml_i2c module when no HiFi Shield 2 was found  
+- updated 20181231: USB Audio: support for more DSD-capable devices  
 
-**Platform files for XU4, kernel version 4.4.0 (mainline)**
+
+**Platform files for XU4/ HC1/ HC2, kernel version 4.14.y LTS**
 - Full Volumio 2 support  
 - open issue: fan control utility (to be added)
 - Updated 20170303: Moved to hardkernel supported kernel 4.9.y
+- Updated 20190103: Moved to kernel 4.14.y LTS, added fancontrol, improved native DSD support
 
 **Platform files for X2, kernel version 4.4.6**
 - 20160330, upgraded from HK stock kernel 3.8.13.30
 - Exynos4412 experimental, now with full Volumio 2 support
 - 20160401, corrected missing iptables options (REDIRECT)
 - 20161202, edited boot.cmd
+
+
