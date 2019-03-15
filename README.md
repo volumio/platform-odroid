@@ -8,6 +8,8 @@ C0/C1/C1+: https://github.com/hardkernel/linux.git, branch odroidc-3.10.y
 
 C2: https://github.com/hardkernel/linux.git, branch odroidc2-3.14.y
 
+N2: https://github.com/hardkernel/linux.git, branch odroidn2-4.9.y
+
 X2: https://github.com/tobiasjakobi/linux-odroid-public.git, branch odroid-4.4.y (obsolete) 
 
 XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
@@ -69,5 +71,8 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - Exynos4412 experimental, now with full Volumio 2 support
 - 20160401, corrected missing iptables options (REDIRECT)
 - 20161202, edited boot.cmd
+
+**Platform files for N2, kernel version 4.9.y**  
+- 20190315 Initial support  
 
 
