@@ -18,7 +18,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - Kernel files (kernel, modules, firmware)
 - Other files, e.g. used during the boot process
 
-**Platform files for C1/C1+, kernel version 3.10.104**
+**Platform files for C1/C1+, kernel version 3.10.y**
 - Full Volumio 2 support
 - Updated 20160320: Kernel Version 3.10.80 -> 3.10.96
                     pcm5102 i2s DAC driver (C1+/C2 HiFi Shield) is now a loadable module
@@ -35,6 +35,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20161223: Reverted amixer volume from 201 to 102
 - updated 20170310: Added patch for "odroid_dac2.c", similar to Odroid C2
 - updated 20180417: Fixed incorrect removal of aml_i2c module when no HiFi Shield 2 was found  
+- updated 20190815: Update kernel 3.10.104 -> 3.10.107  
 
 **Platform files for C2, kernel version 3.14.79**
 - Official HK kernel with overlayfs v21
