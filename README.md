@@ -36,6 +36,8 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20170310: Added patch for "odroid_dac2.c", similar to Odroid C2
 - updated 20180417: Fixed incorrect removal of aml_i2c module when no HiFi Shield 2 was found  
 - updated 20190815: Update kernel 3.10.104 -> 3.10.107  
+(added kernel option announce new usb devices)  
+
 
 **Platform files for C2, kernel version 3.14.79**
 - Official HK kernel with overlayfs v21
