@@ -79,6 +79,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - 20190315 Initial support  
 - 20190405 Ready for first release  
 - 20190815 Kernel update (4.9.187)
+- 20191221 Kernel Update (4.9.205)
 
 
 
