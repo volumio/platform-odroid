@@ -8,6 +8,8 @@ C0/C1/C1+: https://github.com/hardkernel/linux.git, branch odroidc-3.10.y
 
 C2: https://github.com/hardkernel/linux.git, branch odroidc2-3.14.y
 
+C4: https://github.com/hardkernel/linux.git, branch odroidg12-4.9.y
+
 N2: https://github.com/hardkernel/linux.git, branch odroidn2-4.9.y
 
 X2: https://github.com/tobiasjakobi/linux-odroid-public.git, branch odroid-4.4.y (obsolete) 
@@ -18,7 +20,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - Kernel files (kernel, modules, firmware)
 - Other files, e.g. used during the boot process
 
-**Platform files for C1/C1+, kernel version 3.10.104**
+**Platform files for C1/C1+, kernel version 3.10.y**
 - Full Volumio 2 support
 - Updated 20160320: Kernel Version 3.10.80 -> 3.10.96
                     pcm5102 i2s DAC driver (C1+/C2 HiFi Shield) is now a loadable module
@@ -35,6 +37,9 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20161223: Reverted amixer volume from 201 to 102
 - updated 20170310: Added patch for "odroid_dac2.c", similar to Odroid C2
 - updated 20180417: Fixed incorrect removal of aml_i2c module when no HiFi Shield 2 was found  
+- updated 20190815: Update kernel 3.10.104 -> 3.10.107  
+(added kernel option announce new usb devices)  
+
 
 **Platform files for C2, kernel version 3.14.79**
 - Official HK kernel with overlayfs v21
@@ -62,19 +67,26 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 
 **Platform files for XU4/ HC1/ HC2, kernel version 4.14.y LTS**
 - Full Volumio 2 support  
-- open issue: fan control utility (to be added)
-- Updated 20170303: Moved to hardkernel supported kernel 4.9.y
+- open issue: fan control utility (to be added)  
+- Updated 20170303: Moved to hardkernel supported kernel 4.9.y  
 - Updated 20190103: Moved to kernel 4.14.y LTS, added fancontrol, improved native DSD support
 
 **Platform files for X2, kernel version 4.4.6**
-- 20160330, upgraded from HK stock kernel 3.8.13.30
-- Exynos4412 experimental, now with full Volumio 2 support
-- 20160401, corrected missing iptables options (REDIRECT)
-- 20161202, edited boot.cmd
+- 20160330, upgraded from HK stock kernel 3.8.13.30  
+- Exynos4412 experimental, now with full Volumio 2 support  
+- 20160401, corrected missing iptables options (REDIRECT)  
+- 20161202, edited boot.cmd  
 
 **Platform files for N2, kernel version 4.9.y**  
 - 20190315 Initial support  
 - 20190405 Ready for first release  
+- 20190815 Kernel update (4.9.187)  
+- 20191221 Kernel Update (4.9.205)  
+- 20200430 Added HK stock remote, tweaked smp_affinity  
+
+**Platform files for C4, kernel version 4.9.y**  
+- 20200430 Initial support (WIP)  
+
 
 
 
