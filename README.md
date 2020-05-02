@@ -82,7 +82,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - 20190405 Ready for first release  
 - 20190815 Kernel update (4.9.187)  
 - 20191221 Kernel Update (4.9.205)  
-- 20200430 Added HK stock remote, tweaked smp_affinity  
+- 20200430 Added Hardkernel stock remote, tweaked smp_affinity  
 
 **Platform files for C4, kernel version 4.9.y**  
 - 20200430 Initial support (WIP)  
