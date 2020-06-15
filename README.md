@@ -87,7 +87,9 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 
 **Platform files for C4, kernel version 4.9.y**  
 - 20200430 Initial support (WIP)  
-- 20200615 Adding support for HiFi Shield/ Shield+/ Shield2
+- 20200615 Adding support for HiFi Shield/Shield+/Shield2 and umute hdmi-out  
+
+
 
 
 
