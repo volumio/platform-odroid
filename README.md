@@ -84,6 +84,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - 20191221 Kernel Update (4.9.205)  
 - 20200430 Added Hardkernel stock remote, tweaked smp_affinity  
 - 20200502 Changed smp-affinity for usb to cpu3, vsync to cpu2  
+- 20200724 Add support for Odroid N2+  
 
 **Platform files for C4, kernel version 4.9.y**  
 - 20200430 Initial support (WIP)  
