@@ -38,7 +38,8 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20170310: Added patch for "odroid_dac2.c", similar to Odroid C2
 - updated 20180417: Fixed incorrect removal of aml_i2c module when no HiFi Shield 2 was found  
 - updated 20190815: Update kernel 3.10.104 -> 3.10.107  
-(added kernel option announce new usb devices)  
+(added kernel option announce new usb devices)    
+- updates 20210126: Added temp. initramfs script  
 
 
 **Platform files for C2, kernel version 3.14.79**
@@ -63,6 +64,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20180413: ALSA: usb audio: Added DSD support for a range of devices 
 - updated 20180417: Fixed incorrect removal of aml_i2c module when no HiFi Shield 2 was found  
 - updated 20181231: USB Audio: support for more DSD-capable devices  
+- updated 20210126: Upgraded to kernel 3.16.y/ added temp. initramfs init script  
 
 
 **Platform files for XU4/ HC1/ HC2, kernel version 4.14.y LTS**
