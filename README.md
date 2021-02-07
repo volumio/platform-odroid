@@ -10,7 +10,7 @@ C2: https://github.com/hardkernel/linux.git, branch odroidc2-3.14.y
 
 C4: https://github.com/hardkernel/linux.git, branch odroidg12-4.9.y
 
-N2: https://github.com/hardkernel/linux.git, branch odroidn2-4.9.y
+N2: https://github.com/hardkernel/linux.git, branch odroidg12-4.9.y
 
 X2: https://github.com/tobiasjakobi/linux-odroid-public.git, branch odroid-4.4.y (obsolete)
 
@@ -89,7 +89,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - 20200502 Changed smp-affinity for usb to cpu3, vsync to cpu2
 - 20200724 Add support for Odroid N2+
 - 20210114 Consolidating boot.ini C4 and N2
-
+- 20210207 usb audio quirks
 
 **Platform files for C4, kernel version 4.9.y**
 - 20200430 Initial support (WIP)
@@ -97,7 +97,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - 20200616 Fixed a boot.ini default value issue
 - 20210111 Changed location of the dtb to the amlogic subfolder
 - 20210114 Consolidating boot.ini C4 and N2
-
+- 20210207 usb audio quirks
 
 
 
