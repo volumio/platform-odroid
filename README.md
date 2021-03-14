@@ -98,6 +98,8 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - 20210111 Changed location of the dtb to the amlogic subfolder
 - 20210114 Consolidating boot.ini C4 and N2
 - 20210207 usb audio quirks
+- 20210314 Add auddio linout (pins J14) as an option
+
 
 
 
