@@ -70,10 +70,10 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 
 **Platform files for XU4/ HC1/ HC2, kernel version 4.14.y LTS**
 - Full Volumio 2 support
-- open issue: fan control utility (to be added)  
-- Updated 20170303: Moved to hardkernel supported kernel 4.9.y  
-- Updated 20190103: Moved to kernel 4.14.y LTS, added fancontrol, improved native DSD support  
-- Updated 20211005: Prepared for Volumio 3 boot parameter settings  
+- open issue: fan control utility (to be added)
+- Updated 20170303: Moved to hardkernel supported kernel 4.9.y
+- Updated 20190103: Moved to kernel 4.14.y LTS, added fancontrol, improved native DSD support
+- Updated 20211005: Prepared for Volumio 3 boot parameter settings
 
 **Platform files for X2, kernel version 4.4.6**
 - 20160330, upgraded from HK stock kernel 3.8.13.30
@@ -91,7 +91,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - 20200724 Add support for Odroid N2+
 - 20210114 Consolidating boot.ini C4 and N2
 - 20210207 usb audio quirks
-- 20220103 Configure S/PDIF on GPIOA_13 or J7.2, add Ralink support  
+- 20220103 Configure S/PDIF on GPIOA_13 or J7.2, add Ralink support
 
 **Platform files for C4, kernel version 4.9.y**
 - 20200430 Initial support (WIP)
@@ -101,7 +101,9 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - 20210114 Consolidating boot.ini C4 and N2
 - 20210207 usb audio quirks
 - 20210314 Add auddio linout (pins J14) as an option
-- 20220103 Add Ralink support  
+- 20220103 Add Ralink support
+- 20220104 Add support for gpio button power on/off (key "479")
+
 
 
 
