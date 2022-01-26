@@ -39,7 +39,8 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20180417: Fixed incorrect removal of aml_i2c module when no HiFi Shield 2 was found
 - updated 20190815: Update kernel 3.10.104 -> 3.10.107
 (added kernel option announce new usb devices)
-- updates 20210126: Added temp. initramfs script
+- updated 20210126: Added temp. initramfs script
+- updated 20220126: Added Ralink firmware support
 
 
 **Platform files for C2, kernel version 3.14.79**
@@ -66,6 +67,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - updated 20181231: USB Audio: support for more DSD-capable devices
 - updated 20210126: Upgraded to kernel 3.16.y/ added temp. initramfs init script
 - updated 20210127: Kernel 3.16.y: minor changes to network settings
+- updated 20220126: Added Ralink firmware support
 
 
 **Platform files for XU4/ HC1/ HC2, kernel version 4.14.y LTS**
