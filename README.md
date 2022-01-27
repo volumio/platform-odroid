@@ -41,6 +41,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 (added kernel option announce new usb devices)
 - updated 20210126: Added temp. initramfs script
 - updated 20220126: Added Ralink firmware support
+- updated 20220127: Volumio 3: added "net.ifnames=0" to bootargs (avoiding Predictable Network Interface naming)
 
 
 **Platform files for C2, kernel version 3.14.79**
