@@ -96,6 +96,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - 20210207 usb audio quirks
 - 20220103 Configure S/PDIF on GPIOA_13 or J7.2, add Ralink support
 - 20220210 Add support for Odroid Wireless module 5A and 5B
+- 20220409 Add support for Cambridge DacMagic 200M (quirk)
 
 **Platform files for C4, kernel version 4.9.y**
 - 20200430 Initial support (WIP)
@@ -108,6 +109,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 - 20220103 Add Ralink support
 - 20220104 Add support for gpio button power on/off (key "479")
 - 20220210 Add support for Odroid Wireless module 5A and 5B
+
 
 
 
