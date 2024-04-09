@@ -4,50 +4,13 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 
 Kernel Sources:
 
-C0/C1/C1+: https://github.com/hardkernel/linux.git, branch odroidc-3.10.y
-
-C2: https://github.com/hardkernel/linux.git, branch odroidc2-3.14.y
-
 C4: https://github.com/hardkernel/linux.git, branch odroidg12-4.9.y
 
 N2: https://github.com/hardkernel/linux.git, branch odroidg12-4.9.y
 
-XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 
-
-- Kernel files (kernel, modules, firmware)
-- Other files, e.g. used during the boot process
-
-**Platform files for C1/C1+, kernel version 3.10.y**
-|Date|Author|Change
-|---|---|---|
-|||Full Volumio 2 support
-|20220126|gkkpch|Added Ralink firmware support
-|20220127|gkkpch|Volumio 3: added "net.ifnames=0" to bootargs (avoiding Predictable Network Interface naming)
-
-
-**Platform files for C2, kernel version 3.14.79**
-|Date|Author|Change
-|---|---|---|
-|||Official HK kernel with overlayfs v21
-|||Full Volumio 2 support
-|20160315|gkkpch|pcm5102 i2s DAC driver (C1+/C2 HiFi Shield) is now a loadable module
-|20210127|gkkpch|Kernel 3.16.y: minor changes to network settings
-|20220126|gkkpch|Added Ralink firmware support
-|20220127|gkkpch|Volumio 3: added "net.ifnames=0" to bootargs (avoiding Predictable Network Interface naming)
-
-
-**Platform files for XU4/ HC1/ HC2, kernel version 4.14.y LTS**
-|Date|Author|Change
-|---|---|---|
-|20161202|gkkpch|edited boot.cmd
-|||Full Volumio 2 support
-|||open issue: fan control utility (to be added)
-|20170303|gkkpch|Moved to Hardkernel supported kernel 4.9.y
-|20190103|gkkpch|Moved to kernel 4.14.y LTS
-|||added fancontrol
-|||improved native DSD support
-|20211005|gkkpch|Prepared for Volumio 3 boot parameter settings
+**20240409: General: removed support for C0/C1/C1+/C2/XU4/X2**
+  ^^^^^^^^
 
 
 **Platform files for N2, kernel version 4.9.y**
@@ -72,6 +35,7 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 ||| - (leave UAC1 unticket -> UAC2 will be enabled)
 ||| - add /etc/modprobe.d/g_audio.conf
 ||| - add /etc/modules
+|20240409|gkkpch|Change boot.ini: 'bootconfig' becomes 'uidconfig'
 
 
 
@@ -88,10 +52,6 @@ XU4: https://github.com/hardkernel/linux.git, branch odroidxu4-4.9.y
 |20220103|gkkpch|Add Ralink support
 |20220104|gkkpch|Add support for gpio button power on/off (key "479")
 |20220210|gkkpch|Add support for Odroid Wireless module 5A and 5B
-
-
-
-
-
+|20240409|gkkpch|Change boot.ini: 'bootconfig' becomes 'uidconfig'
 
 
